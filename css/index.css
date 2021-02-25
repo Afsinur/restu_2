@@ -5,8 +5,14 @@
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+body {
+  background-color: rgba(28, 28, 33, 0.815);
+}
+
 /*
 1.section1.
+2.section2.
+3.section3.
 */
 
 /*1.section1.*/
@@ -28,4 +34,23 @@
 
 .nav-link:hover {
   color: #f3b80a !important;
+}
+
+/*2.section2.*/
+
+.sec2 {
+  background-color: rgba(28, 28, 33, 0.815);
+}
+
+/*3.section3.*/
+
+.sec3 {
+  background-image: linear-gradient(
+      rgba(28, 28, 33, 0.438),
+      rgba(28, 28, 33, 0.356)
+    ),
+    url("../img/section3/sec3-bg.png");
+  width: 100%;
+  background-size: cover;
+  background-position: center;
 }
