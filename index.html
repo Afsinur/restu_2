@@ -137,7 +137,7 @@
 
               <a
                 href="#"
-                class="text-decoration-none text-dark bg-warning px-5 py-3 fw-bold fs-4 rounded"
+                class="sec1Cus text-decoration-none text-dark bg-warning px-5 py-3 fw-bold fs-4 rounded"
                 >Contact Us</a
               >
             </div>
@@ -196,63 +196,11 @@
 
           <div class="col-11 row justify-content-center">
             <div
+              v-for="(item, index) in data.section4"
+              :key="index"
               class="col-md-4 col-12 d-flex justify-content-center mb-4 px-3 py-1"
             >
-              <img
-                src="img/section4/sec4-img-1.jpg"
-                class="img-fluid"
-                alt="img-1"
-              />
-            </div>
-
-            <div
-              class="col-md-4 col-12 d-flex justify-content-center mb-4 px-3 py-1"
-            >
-              <img
-                src="img/section4/sec4-img-2.jpg"
-                class="img-fluid"
-                alt="img-2"
-              />
-            </div>
-
-            <div
-              class="col-md-4 col-12 d-flex justify-content-center mb-4 px-3 py-1"
-            >
-              <img
-                src="img/section4/sec4-img-3.jpg"
-                class="img-fluid"
-                alt="img-3"
-              />
-            </div>
-
-            <div
-              class="col-md-4 col-12 d-flex justify-content-center mb-4 px-3 py-1"
-            >
-              <img
-                src="img/section4/sec4-img-4.jpg"
-                class="img-fluid"
-                alt="img-4"
-              />
-            </div>
-
-            <div
-              class="col-md-4 col-12 d-flex justify-content-center mb-4 px-3 py-1"
-            >
-              <img
-                src="img/section4/sec4-img-5.jpg"
-                class="img-fluid"
-                alt="img-5"
-              />
-            </div>
-
-            <div
-              class="col-md-4 col-12 d-flex justify-content-center mb-4 px-3 py-1"
-            >
-              <img
-                src="img/section4/sec4-img-6.jpg"
-                class="img-fluid"
-                alt="img-6"
-              />
+              <img :src="item.src" class="img-fluid" :alt="item.alt" />
             </div>
           </div>
         </div>
@@ -283,64 +231,22 @@
 
           <div class="col-lg-11 col-12 row justify-content-center mt-4">
             <div
-              class="col-lg-4 d-flex flex-column justify-content-center col-12 px-3"
+              v-for="(item, index) in data.section6"
+              :key="index"
+              class="col-lg-4 d-flex flex-column justify-content-center col-12 px-lg-3 px-0"
             >
               <img
-                id="flip_1"
-                src="img/section6/sec6-img-2.jpg"
+                :id="item.id "
+                :src="item.src"
                 class="img-fluid mb-3"
-                alt="img-2"
+                :alt="item.alt "
               />
 
-              <p class="fs-2 text-warning">ITALIAN SOURCE MUSHROOM</p>
+              <p class="fs-2 text-warning">{{ item.p1 }}</p>
 
-              <p class="fs-5 text-light">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
-                reiciendis delectus odio eum voluptas corrupti ipsum quasi aut
-                accusantium facere? Deserunt reiciendis voluptatibus vero.
-              </p>
+              <p class="fs-5 text-light">{{ item.p2 }}</p>
 
-              <p class="fs-2 text-warning">Price: $12.00</p>
-            </div>
-
-            <div
-              class="col-lg-4 d-flex flex-column justify-content-center col-12 px-3"
-            >
-              <img
-                src="img/section6/sec6-img-1.jpg"
-                class="img-fluid mb-3"
-                alt="img-1"
-              />
-
-              <p class="fs-2 text-warning">ITALIAN SOURCE MUSHROOM</p>
-
-              <p class="fs-5 text-light">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
-                reiciendis delectus odio eum voluptas corrupti ipsum quasi aut
-                accusantium facere? Deserunt reiciendis voluptatibus vero.
-              </p>
-
-              <p class="fs-2 text-warning">Price: $12.00</p>
-            </div>
-
-            <div
-              class="col-lg-4 d-flex flex-column justify-content-center col-12 px-3"
-            >
-              <img
-                src="img/section6/sec6-img-2.jpg"
-                class="img-fluid mb-3"
-                alt="img-2"
-              />
-
-              <p class="fs-2 text-warning">ITALIAN SOURCE MUSHROOM</p>
-
-              <p class="fs-5 text-light">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
-                reiciendis delectus odio eum voluptas corrupti ipsum quasi aut
-                accusantium facere? Deserunt reiciendis voluptatibus vero.
-              </p>
-
-              <p class="fs-2 text-warning">Price: $12.00</p>
+              <p class="fs-2 text-warning">{{ item.p3 }}</p>
             </div>
           </div>
         </div>
@@ -373,7 +279,9 @@
           <div
             class="col-12 d-flex flex-column align-items-center justify-content-center"
           >
-            <ul class="sec8under1 list-unstyled fw-bold fs-5 d-flex">
+            <ul
+              class="sec8under1 list-unstyled fw-bold fs-5 d-flex justify-content-center flex-wrap"
+            >
               <li class="m-3">
                 <a href="#" class="active text-decoration-none text-light"
                   >HOME</a
@@ -405,7 +313,9 @@
           <div
             class="col-12 d-flex flex-column align-items-center justify-content-center"
           >
-            <ul class="sec8under list-unstyled d-flex">
+            <ul
+              class="sec8under list-unstyled d-flex justify-content-center flex-wrap"
+            >
               <li class="m-3">
                 <a href="#">
                   <img src="img/section8/sec8-facebook.png" alt="facebook" />

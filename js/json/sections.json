@@ -1,0 +1,56 @@
+{
+  "section": {
+    "id": "Shahriar Afsin",
+    "div": "<!-- Mark --><div id=\"mark\"><h1></h1></div>",
+    "style1": {
+      "position": "fixed",
+      "top": "0",
+      "left": "0",
+      "width": "100vw",
+      "height": "100vh",
+      "display": "flex",
+      "alignItems": "center",
+      "justifyContent": "center"
+    },
+    "style2": {
+      "fontSize": "100px",
+      "color": "rgba(150, 150, 150, 0.13)",
+      "transform": "rotate(-45deg)",
+      "zIndex": "2"
+    }
+  },
+  "section4": [
+    { "src": "img/section4/sec4-img-1.jpg", "alt": "img-1" },
+    { "src": "img/section4/sec4-img-2.jpg", "alt": "img-2" },
+    { "src": "img/section4/sec4-img-3.jpg", "alt": "img-3" },
+    { "src": "img/section4/sec4-img-4.jpg", "alt": "img-4" },
+    { "src": "img/section4/sec4-img-5.jpg", "alt": "img-5" },
+    { "src": "img/section4/sec4-img-6.jpg", "alt": "img-6" }
+  ],
+  "section6": [
+    {
+      "id": "flip_1",
+      "src": "img/section6/sec6-img-2.jpg",
+      "alt": "img-2",
+      "p1": "ITALIAN SOURCE MUSHROOM",
+      "p2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab reiciendis delectus odio eum voluptas corrupti ipsum quasi aut accusantium facere? Deserunt reiciendis voluptatibus vero.",
+      "p3": "Price: $12.00"
+    },
+    {
+      "id": "null2",
+      "src": "img/section6/sec6-img-1.jpg",
+      "alt": "img-1",
+      "p1": "ITALIAN SOURCE MUSHROOM",
+      "p2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab reiciendis delectus odio eum voluptas corrupti ipsum quasi aut accusantium facere? Deserunt reiciendis voluptatibus vero.",
+      "p3": "Price: $12.00"
+    },
+    {
+      "id": "null3",
+      "src": "img/section6/sec6-img-2.jpg",
+      "alt": "img-2",
+      "p1": "ITALIAN SOURCE MUSHROOM",
+      "p2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab reiciendis delectus odio eum voluptas corrupti ipsum quasi aut accusantium facere? Deserunt reiciendis voluptatibus vero.",
+      "p3": "Price: $12.00"
+    }
+  ]
+}

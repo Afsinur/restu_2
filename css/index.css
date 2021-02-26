@@ -27,6 +27,10 @@ body {
   background-position: center;
 }
 
+.sec1Cus:hover {
+  background-color: #be9517 !important;
+}
+
 .nav-link {
   font-weight: 500;
 }
