@@ -9,7 +9,7 @@ const app = {
 
   methods: {
     loadAll() {
-      fetch("../js/json/sections.json")
+      fetch("https://raw.githubusercontent.com/Afsinur/restu_2/master/js/json/sections.json")
         .then((response) => {
           return response.json();
         })
